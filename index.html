@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <div class="portfolio-box">
+    <header class="header">
+      <div class="logo">Port<span>folio</span></div>
+      <nav class="nav">
+        <a href="index.html"class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="index.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <button class="cv-btn">Download CV</button>
+      </nav>
+    </header>
+
+    <section class="main">
+      <!-- Photo Section -->
+      <div class="photo-wrapper">
+        <div class="photo-bg-shape">
+          <img src="myphoto.png" alt="My Photo" class="cutout-photo" />
+        </div>
+      </div>
+
+      <!-- Text Section -->
+      <div class="right">
+        <h3>Hello, I’m</h3>
+        <h1>Kartik Patel</h1>
+        <h2>And I’m a <span class="typed-text">Data Science Student</span></h2>
+        <p>
+          I’m passionate about data, insights and building intelligent solutions.
+        </p>
+
+        <div class="social">
+          <a href="https://www.instagram.com/itz_kartik_patel_001?igsh=ZGowMjduMDJvazdv" target = "main"><img src="insta.png" class="icon instagram" /></a>
+          <a href="#"><img src="facebook.png" class="icon facebook" /></a>
+          <a href="#"><img src="twitter.png" class="icon twitter big" /></a>
+          <a href="https://www.linkedin.com/in/kartik-patel-3252a1372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="main"><img src="linkedin.png" class="icon linkedin big" /></a>
+        </div>
+
+        <div class="buttons">
+          <button class="hire">Hire Me</button>
+          <button class="contact">Contact Me</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="stats">
+      <div><strong>10+</strong><p>Years of Experience</p></div>
+      <div><strong>30+</strong><p>Projects Completed</p></div>
+      <div><strong>5+</strong><p>Technologies Mastered</p></div>
+      <div><strong>100+</strong><p>Satisfied Clients</p></div>
+    </footer>
+  </div>
+
+  <!-- Optional Typed.js (typing animation) -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".typed-text", {
+      strings: ["Data S","Web Developer", "ML Enthusiast"],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
+
+</body>
+</html>
