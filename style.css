@@ -534,7 +534,11 @@ img {
     width: 100%;
     padding: 15px;
     box-shadow: blue;
-    border: none;
+    box-shadow:
+    0 0 50px #f2ff00,
+    0 0 40px rgb(255, 48, 17),
+    inset 0 0 20px rgba(0, 191, 255, 0.3);
+  }
   }
   .portfolio-boxx {
     height: 1200px;
